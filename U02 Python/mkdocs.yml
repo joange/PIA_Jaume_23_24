@@ -1,0 +1,54 @@
+site_name: Unitat 2. El llenguatge de programació Python
+docs_dir: "md"
+site_dir: "docs"
+nav:
+  - 1. Preparació de l'entorn: 01_Entorns_i_projectes.md
+  - 2. Tipus de Dades. Operadors: 02_Tipus_Variables_Operadors.md
+  - 3. Estructures de control: 03_Estructures_de_control.md
+  - 4. Funcions: 04_Funcions.md
+  - 5. Estructures de dades: 05_Estructures_de_dades.md
+  - 6. Programació orientada a objectes: 06_POO.md
+  - 7. Projecte: 07_Projecte.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+theme: 
+  name: material
+  logo: img/jaume.png
+  language: ca 
+  palette:
+#   - primary: purple
+#    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+
+    
+  features:
+    - content.code.copy
+    - content.code.select
+
+extra_css:
+  - css/extra.css
+
+
+plugins:
+  - search
+#  - pdf-export
