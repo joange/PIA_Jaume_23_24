@@ -1,14 +1,17 @@
-site_name: Unitat 2. El llenguatge de programació Python
+site_name: Programació d'Intel·ligència Artificial - CE Big Data i IA
 docs_dir: "md"
 site_dir: "docs"
 nav:
-  - 1. Preparació de l'entorn: 01_Entorns_i_projectes.md
-  - 2. Tipus de Dades. Operadors: 02_Tipus_Variables_Operadors.md
-  - 3. Estructures de control: 03_Estructures_de_control.md
-  - 4. Funcions: 04_Funcions.md
-  - 5. Estructures de dades: 05_Estructures_de_dades.md
-  - 6. Programació orientada a objectes: 06_POO.md
-  - 7. Projecte: 07_Projecte.md
+  - Unitat 2: 
+    - 1. Preparació de l'entorn: U02 Python/01_Entorns_i_projectes.md
+    - 2. Tipus de Dades. Operadors: U02 Python/02_Tipus_Variables_Operadors.md
+    - 3. Estructures de control: U02 Python/03_Estructures_de_control.md
+    - 4. Funcions: U02 Python/04_Funcions.md
+    - 5. Estructures de dades: U02 Python/05_Estructures_de_dades.md
+    - 6. Programació orientada a objectes: U02 Python/06_POO.md
+    - 7. Projecte: U02 Python/07_Projecte.md
+    - 8. Prova Jupyter: U02 Python/Sorting.ipynb
+    - 9. Prova url: U02 Python/index.html
 
 markdown_extensions:
   - admonition
@@ -50,5 +53,8 @@ extra_css:
 
 
 plugins:
+  - mkdocs-jupyter:
+      execute: true
+      include_source: True
   - search
 #  - pdf-export
