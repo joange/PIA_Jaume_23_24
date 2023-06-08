@@ -1,0 +1,26 @@
+Per a insertar admonitions a un quadern de Jupyter ha de ser amb html:
+
+```html
+<div class="admonition note">
+  <p class="admonition-title">Note</p>
+  <p>
+    If two distributions are similar, then their entropies are similar, implies
+    the KL divergence with respect to two distributions will be smaller...
+  </p>
+</div>
+```
+
+On les possibles classes son:
+
+- note
+- abstract
+- info
+- tip
+- success
+- question
+- warning
+- failure
+- danger
+- bug
+- example
+- quote
